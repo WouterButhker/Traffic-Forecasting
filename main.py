@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
-
+import matplotlib.pyplot as plt
 def splitSequence(seq, n_steps):
 
     #Declare X and y as empty list
@@ -76,11 +76,19 @@ def main():
 
     model.compile(optimizer=tf.keras.optimizers.Adam(0.01), loss=tf.keras.losses.MeanSquaredError(), metrics=['accuracy'])
 
-    model.fit(x_train, y_train, epochs=500, verbose=1)
+    model.fit(x_train, y_train, epochs=5, verbose=1)
 
     results = model.evaluate(x_test, y_test, batch_size=128)
 
     print("test loss, test acc:", results)
+    predicted_y = model.predict(x_test)
+
+    plt.plot(y_test[:50], 'C2')
+    plt.plot(predicted_y[:50])
+    plt.show()
+
+    # predicted_y = min_max_scaler.inverse_transform(predicted_y)
+
 
 
 
