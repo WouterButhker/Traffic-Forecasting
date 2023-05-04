@@ -5,6 +5,16 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 
+def df_to_X_y(df_as_np, window_size=5):
+
+    X = []
+    y = []
+    for i in range(len(df_as_np)-window_size):
+        row = [[a] for a in df_as_np[i:i+window_size]]
+        X.append(row)
+        label = df_as_np[i+window_size]
+        y.append(label)
+    return np.array(X), np.array(y)
 def splitSequence(seq, n_steps):
 
     #Declare X and y as empty list
@@ -49,8 +59,10 @@ def main():
     arr = df.transpose().to_numpy()
     arr = arr.flatten()
     # print(df.info())
-    print(arr)
-    train, test = np.split(arr, 2)
+    l = arr.size
+    left = int(l * 0.8)
+    train, test = arr[:left], arr[left:]
+
 
     train = np.asarray(train).astype('float32')
     test = np.asarray(test).astype('float32')
@@ -59,8 +71,11 @@ def main():
     # plt.show()
 
     steps = 5
-    x_train, y_train = splitSequence(train, n_steps=steps)
+    x_train, y_train = splitSequence(train, steps)
     x_test, y_test = splitSequence(test, steps)
+    xt, yt = df_to_X_y(test, steps)
+    print(y_test)
+    print(yt)
 
     # reshape from [samples, timesteps] into [samples, timesteps, features]
     n_features = 1
@@ -74,13 +89,17 @@ def main():
 
     model.summary()
 
-    model.compile(optimizer=tf.keras.optimizers.Adam(0.01), loss=tf.keras.losses.MeanSquaredError(), metrics=['accuracy'])
+    model.compile(optimizer=tf.keras.optimizers.Adam(0.01), loss=tf.keras.losses.MeanAbsolutePercentageError(), metrics=['mse'])
 
-    model.fit(x_train, y_train, epochs=500, verbose=1)
+    model.fit(x_train, y_train, epochs=5, verbose=1)
 
-    results = model.evaluate(x_test, y_test, batch_size=128)
+    # results = model.evaluate(x_test, y_test, batch_size=128)
+    results = model.predict(x_test)
 
-    print("test loss, test acc:", results)
+    print(results)
+    print(y_test)
+
+    # print("test loss, test acc:", results)
 
 
 
