@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers
+from tensorflow.keras import layers, Model, utils
 import matplotlib.pyplot as plt
 def splitSequence(seq, n_steps):
 
@@ -45,9 +45,11 @@ def main():
 
     # df = df.groupby(df["datetime"].dt.hour).sum()
     df = df.transpose()
-    df = df[1:2]
+    print(df.shape)
+    df = df[1:]
+    print(df.shape)
     arr = df.transpose().to_numpy()
-    arr = arr.flatten()
+    #arr = arr.flatten()
     # print(df.info())
     print(arr)
     train, test = np.split(arr, 2)
@@ -58,38 +60,39 @@ def main():
     # df.plot(kind="bar", y=["021", "022", "023"], ylabel="sum of vehicles", xlabel="hour of day")
     # plt.show()
 
-    steps = 5
+    steps = 25
     x_train, y_train = splitSequence(train, n_steps=steps)
     x_test, y_test = splitSequence(test, steps)
 
     # reshape from [samples, timesteps] into [samples, timesteps, features]
-    n_features = 1
-    x_train = x_train.reshape((x_train.shape[0], x_train.shape[1], n_features))
-    x_test = x_test.reshape((x_test.shape[0], x_test.shape[1], n_features))
-    print(x_train[:2])
+    n_features = 10
+    ###Define model###
+    inp = layers.Input((steps, n_features))
+    epochs = 50
 
-    model = tf.keras.Sequential()
-    model.add(layers.LSTM(50, activation='relu', input_shape=(steps, n_features)))
-    model.add(layers.Dense(1))
+    # LSTMs
+    x = layers.LSTM(50)(inp)
+    out = layers.Dense(n_features)(x)
+
+    model = Model(inp, out)
+
 
     model.summary()
 
     model.compile(optimizer=tf.keras.optimizers.Adam(0.01), loss=tf.keras.losses.MeanSquaredError(), metrics=['accuracy'])
 
-    model.fit(x_train, y_train, epochs=5, verbose=1)
+    model.fit(x_train, y_train, epochs=epochs, verbose=1)
 
     results = model.evaluate(x_test, y_test, batch_size=128)
 
     print("test loss, test acc:", results)
     predicted_y = model.predict(x_test)
 
-    plt.plot(y_test[:50], 'C2')
-    plt.plot(predicted_y[:50])
-    plt.show()
-
-    # predicted_y = min_max_scaler.inverse_transform(predicted_y)
-
-
+    for i in range(10):
+        plt.title(f"Sensor: {i}, epochs: {epochs}")
+        plt.plot(y_test[:150, i], 'C2')
+        plt.plot(predicted_y[:150, i], 'C20')
+        plt.show()
 
 
 if __name__ == '__main__':
