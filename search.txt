@@ -1,0 +1,937 @@
+187 results - 1 file
+
+output.txt:
+    116  21/21 [==============================] - 3s 52ms/step
+    117: Train Score: 4.49 RMSE
+    118: Test Score: 4.38 RMSE
+    119  Model: "model_103"
+
+    207  21/21 [==============================] - 3s 78ms/step
+    208: Train Score: 4.52 RMSE
+    209: Test Score: 4.24 RMSE
+    210  Model: "model_104"
+
+    308  21/21 [==============================] - 3s 57ms/step
+    309: Train Score: 4.67 RMSE
+    310: Test Score: 4.22 RMSE
+    311  Model: "model_105"
+
+    403  21/21 [==============================] - 3s 77ms/step
+    404: Train Score: 4.65 RMSE
+    405: Test Score: 4.22 RMSE
+    406  Model: "model_106"
+
+    472  21/21 [==============================] - 3s 68ms/step
+    473: Train Score: 4.94 RMSE
+    474: Test Score: 4.48 RMSE
+    475  Model: "model_107"
+
+    573  21/21 [==============================] - 3s 56ms/step
+    574: Train Score: 4.55 RMSE
+    575: Test Score: 4.23 RMSE
+    576  Model: "model_108"
+
+    736  21/21 [==============================] - 3s 56ms/step
+    737: Train Score: 4.39 RMSE
+    738: Test Score: 4.63 RMSE
+    739  Model: "model_109"
+
+    805  21/21 [==============================] - 3s 59ms/step
+    806: Train Score: 4.90 RMSE
+    807: Test Score: 4.35 RMSE
+    808  Model: "model_110"
+
+    920  21/21 [==============================] - 3s 58ms/step
+    921: Train Score: 4.59 RMSE
+    922: Test Score: 4.38 RMSE
+    923  Model: "model_111"
+
+   1005  21/21 [==============================] - 3s 58ms/step
+   1006: Train Score: 4.96 RMSE
+   1007: Test Score: 4.97 RMSE
+   1008  Starting for 5 steps in the future
+
+   1095  21/21 [==============================] - 3s 75ms/step
+   1096: Train Score: 4.44 RMSE
+   1097: Test Score: 5.17 RMSE
+   1098  Model: "model_113"
+
+   1170  21/21 [==============================] - 3s 69ms/step
+   1171: Train Score: 4.59 RMSE
+   1172: Test Score: 5.27 RMSE
+   1173  Model: "model_114"
+
+   1233  21/21 [==============================] - 3s 54ms/step
+   1234: Train Score: 4.46 RMSE
+   1235: Test Score: 5.29 RMSE
+   1236  Model: "model_115"
+
+   1334  21/21 [==============================] - 2s 52ms/step
+   1335: Train Score: 4.25 RMSE
+   1336: Test Score: 5.04 RMSE
+   1337  Model: "model_116"
+
+   1407  21/21 [==============================] - 3s 56ms/step
+   1408: Train Score: 4.26 RMSE
+   1409: Test Score: 5.07 RMSE
+   1410  Model: "model_117"
+
+   1498  21/21 [==============================] - 3s 55ms/step
+   1499: Train Score: 4.32 RMSE
+   1500: Test Score: 5.10 RMSE
+   1501  Model: "model_118"
+
+   1599  21/21 [==============================] - 3s 79ms/step
+   1600: Train Score: 5.12 RMSE
+   1601: Test Score: 5.94 RMSE
+   1602  Model: "model_119"
+
+   1696  21/21 [==============================] - 3s 75ms/step
+   1697: Train Score: 4.24 RMSE
+   1698: Test Score: 5.09 RMSE
+   1699  Model: "model_120"
+
+   1791  21/21 [==============================] - 3s 53ms/step
+   1792: Train Score: 4.26 RMSE
+   1793: Test Score: 5.01 RMSE
+   1794  Model: "model_121"
+
+   1936  21/21 [==============================] - 3s 80ms/step
+   1937: Train Score: 4.25 RMSE
+   1938: Test Score: 5.03 RMSE
+   1939  Starting for 9 steps in the future
+
+   2026  20/20 [==============================] - 3s 69ms/step
+   2027: Train Score: 4.47 RMSE
+   2028: Test Score: 4.82 RMSE
+   2029  Model: "model_123"
+
+   2083  20/20 [==============================] - 2s 55ms/step
+   2084: Train Score: 5.29 RMSE
+   2085: Test Score: 5.48 RMSE
+   2086  Model: "model_124"
+
+   2202  20/20 [==============================] - 3s 71ms/step
+   2203: Train Score: 4.32 RMSE
+   2204: Test Score: 4.79 RMSE
+   2205  Model: "model_125"
+
+   2285  20/20 [==============================] - 2s 60ms/step
+   2286: Train Score: 4.78 RMSE
+   2287: Test Score: 5.00 RMSE
+   2288  Model: "model_126"
+
+   2346  20/20 [==============================] - 952s 50s/step
+   2347: Train Score: 4.74 RMSE
+   2348: Test Score: 4.92 RMSE
+   2349  Model: "model_127"
+
+   2471  20/20 [==============================] - 2s 55ms/step
+   2472: Train Score: 4.39 RMSE
+   2473: Test Score: 4.86 RMSE
+   2474  Model: "model_128"
+
+   2556  20/20 [==============================] - 3s 67ms/step
+   2557: Train Score: 4.44 RMSE
+   2558: Test Score: 4.75 RMSE
+   2559  Model: "model_129"
+
+   2627  20/20 [==============================] - 2s 57ms/step
+   2628: Train Score: 4.66 RMSE
+   2629: Test Score: 4.96 RMSE
+   2630  Model: "model_130"
+
+   2730  20/20 [==============================] - 2s 58ms/step
+   2731: Train Score: 4.97 RMSE
+   2732: Test Score: 5.18 RMSE
+   2733  Model: "model_131"
+
+   2795  20/20 [==============================] - 3s 77ms/step
+   2796: Train Score: 4.55 RMSE
+   2797: Test Score: 4.84 RMSE
+   2798  Starting for 13 steps in the future
+
+   2871  20/20 [==============================] - 3s 90ms/step
+   2872: Train Score: 4.40 RMSE
+   2873: Test Score: 4.28 RMSE
+   2874  Model: "model_133"
+
+   2974  20/20 [==============================] - 3s 59ms/step
+   2975: Train Score: 4.18 RMSE
+   2976: Test Score: 4.13 RMSE
+   2977  Model: "model_134"
+
+   3073  20/20 [==============================] - 3s 76ms/step
+   3074: Train Score: 4.74 RMSE
+   3075: Test Score: 4.90 RMSE
+   3076  Model: "model_135"
+
+   3142  20/20 [==============================] - 3s 83ms/step
+   3143: Train Score: 4.66 RMSE
+   3144: Test Score: 4.55 RMSE
+   3145  Model: "model_136"
+
+   3245  20/20 [==============================] - 3s 67ms/step
+   3246: Train Score: 4.33 RMSE
+   3247: Test Score: 4.43 RMSE
+   3248  Model: "model_137"
+
+   3312  20/20 [==============================] - 3s 71ms/step
+   3313: Train Score: 4.72 RMSE
+   3314: Test Score: 4.47 RMSE
+   3315  Model: "model_138"
+
+   3461  20/20 [==============================] - 3s 54ms/step
+   3462: Train Score: 4.30 RMSE
+   3463: Test Score: 4.43 RMSE
+   3464  Model: "model_139"
+
+   3536  20/20 [==============================] - 3s 79ms/step
+   3537: Train Score: 4.61 RMSE
+   3538: Test Score: 4.54 RMSE
+   3539  Model: "model_140"
+
+   3669  20/20 [==============================] - 3s 68ms/step
+   3670: Train Score: 4.39 RMSE
+   3671: Test Score: 4.41 RMSE
+   3672  Model: "model_141"
+
+   3764  20/20 [==============================] - 3s 64ms/step
+   3765: Train Score: 4.57 RMSE
+   3766: Test Score: 4.48 RMSE
+   3767  Starting for 17 steps in the future
+
+   3864  20/20 [==============================] - 3s 106ms/step
+   3865: Train Score: 4.43 RMSE
+   3866: Test Score: 4.40 RMSE
+   3867  Model: "model_143"
+
+   3921  20/20 [==============================] - 3s 82ms/step
+   3922: Train Score: 4.92 RMSE
+   3923: Test Score: 4.64 RMSE
+   3924  Model: "model_144"
+
+   4020  20/20 [==============================] - 4s 115ms/step
+   4021: Train Score: 4.48 RMSE
+   4022: Test Score: 4.64 RMSE
+   4023  Model: "model_145"
+
+   4105  20/20 [==============================] - 5s 106ms/step
+   4106: Train Score: 4.59 RMSE
+   4107: Test Score: 4.57 RMSE
+   4108  Model: "model_146"
+
+   4238  20/20 [==============================] - 3s 66ms/step
+   4239: Train Score: 4.43 RMSE
+   4240: Test Score: 4.52 RMSE
+   4241  Model: "model_147"
+
+   4303  20/20 [==============================] - 3s 88ms/step
+   4304: Train Score: 4.96 RMSE
+   4305: Test Score: 4.59 RMSE
+   4306  Model: "model_148"
+
+   4394  20/20 [==============================] - 4s 84ms/step
+   4395: Train Score: 4.35 RMSE
+   4396: Test Score: 4.25 RMSE
+   4397  Model: "model_149"
+
+   4481  20/20 [==============================] - 5s 125ms/step
+   4482: Train Score: 4.59 RMSE
+   4483: Test Score: 4.53 RMSE
+   4484  Model: "model_150"
+
+   4588  20/20 [==============================] - 5s 118ms/step
+   4589: Train Score: 4.51 RMSE
+   4590: Test Score: 4.73 RMSE
+   4591  Model: "model_151"
+
+   4707  20/20 [==============================] - 5s 106ms/step
+   4708: Train Score: 4.44 RMSE
+   4709: Test Score: 4.21 RMSE
+   4710  Starting for 21 steps in the future
+
+   4815  20/20 [==============================] - 5s 121ms/step
+   4816: Train Score: 4.14 RMSE
+   4817: Test Score: 4.35 RMSE
+   4818  Model: "model_153"
+
+   4924  20/20 [==============================] - 5s 158ms/step
+   4925: Train Score: 4.39 RMSE
+   4926: Test Score: 4.40 RMSE
+   4927  Model: "model_154"
+
+   4993  20/20 [==============================] - 5s 120ms/step
+   4994: Train Score: 4.46 RMSE
+   4995: Test Score: 4.69 RMSE
+   4996  Model: "model_155"
+
+   5112  20/20 [==============================] - 4s 105ms/step
+   5113: Train Score: 4.20 RMSE
+   5114: Test Score: 4.29 RMSE
+   5115  Model: "model_156"
+
+   5187  20/20 [==============================] - 5s 130ms/step
+   5188: Train Score: 4.51 RMSE
+   5189: Test Score: 4.81 RMSE
+   5190  Model: "model_157"
+
+   5258  20/20 [==============================] - 6s 155ms/step
+   5259: Train Score: 4.43 RMSE
+   5260: Test Score: 4.61 RMSE
+   5261  Model: "model_158"
+
+   5357  20/20 [==============================] - 6s 166ms/step
+   5358: Train Score: 4.60 RMSE
+   5359: Test Score: 4.43 RMSE
+   5360  Model: "model_159"
+
+   5420  20/20 [==============================] - 6s 148ms/step
+   5421: Train Score: 4.57 RMSE
+   5422: Test Score: 4.55 RMSE
+   5423  Model: "model_160"
+
+   5485  20/20 [==============================] - 5s 118ms/step
+   5486: Train Score: 4.57 RMSE
+   5487: Test Score: 4.57 RMSE
+   5488  Model: "model_161"
+
+   5546  20/20 [==============================] - 5s 124ms/step
+   5547: Train Score: 4.58 RMSE
+   5548: Test Score: 4.62 RMSE
+   5549  Starting for 25 steps in the future
+
+   5624  20/20 [==============================] - 5s 136ms/step
+   5625: Train Score: 4.10 RMSE
+   5626: Test Score: 4.90 RMSE
+   5627  Model: "model_163"
+
+   5707  20/20 [==============================] - 5s 125ms/step
+   5708: Train Score: 4.18 RMSE
+   5709: Test Score: 5.02 RMSE
+   5710  Model: "model_164"
+
+   5796  20/20 [==============================] - 6s 193ms/step
+   5797: Train Score: 4.16 RMSE
+   5798: Test Score: 4.81 RMSE
+   5799  Model: "model_165"
+
+   5873  20/20 [==============================] - 6s 169ms/step
+   5874: Train Score: 4.28 RMSE
+   5875: Test Score: 5.06 RMSE
+   5876  Model: "model_166"
+
+   5966  20/20 [==============================] - 5s 115ms/step
+   5967: Train Score: 4.10 RMSE
+   5968: Test Score: 4.87 RMSE
+   5969  Model: "model_167"
+
+   6053  20/20 [==============================] - 5s 114ms/step
+   6054: Train Score: 4.20 RMSE
+   6055: Test Score: 4.92 RMSE
+   6056  Model: "model_168"
+
+   6150  20/20 [==============================] - 5s 134ms/step
+   6151: Train Score: 4.09 RMSE
+   6152: Test Score: 4.87 RMSE
+   6153  Model: "model_169"
+
+   6215  20/20 [==============================] - 5s 130ms/step
+   6216: Train Score: 4.68 RMSE
+   6217: Test Score: 5.13 RMSE
+   6218  Model: "model_170"
+
+   6280  20/20 [==============================] - 5s 141ms/step
+   6281: Train Score: 4.20 RMSE
+   6282: Test Score: 5.00 RMSE
+   6283  Model: "model_171"
+
+   6363  20/20 [==============================] - 5s 131ms/step
+   6364: Train Score: 4.18 RMSE
+   6365: Test Score: 4.91 RMSE
+   6366  Starting for 29 steps in the future
+
+   6455  20/20 [==============================] - 6s 155ms/step
+   6456: Train Score: 4.31 RMSE
+   6457: Test Score: 4.97 RMSE
+   6458  Model: "model_173"
+
+   6560  20/20 [==============================] - 6s 174ms/step
+   6561: Train Score: 4.28 RMSE
+   6562: Test Score: 5.05 RMSE
+   6563  Model: "model_174"
+
+   6667  20/20 [==============================] - 6s 189ms/step
+   6668: Train Score: 4.22 RMSE
+   6669: Test Score: 4.92 RMSE
+   6670  Model: "model_175"
+
+   6732  20/20 [==============================] - 6s 175ms/step
+   6733: Train Score: 4.51 RMSE
+   6734: Test Score: 5.26 RMSE
+   6735  Model: "model_176"
+
+   6825  20/20 [==============================] - 6s 169ms/step
+   6826: Train Score: 4.40 RMSE
+   6827: Test Score: 5.25 RMSE
+   6828  Model: "model_177"
+
+   6892  20/20 [==============================] - 6s 175ms/step
+   6893: Train Score: 4.67 RMSE
+   6894: Test Score: 5.28 RMSE
+   6895  Model: "model_178"
+
+   6977  20/20 [==============================] - 6s 152ms/step
+   6978: Train Score: 4.37 RMSE
+   6979: Test Score: 5.07 RMSE
+   6980  Model: "model_179"
+
+   7028  20/20 [==============================] - 7s 236ms/step
+   7029: Train Score: 4.70 RMSE
+   7030: Test Score: 5.54 RMSE
+   7031  Model: "model_180"
+
+   7085  20/20 [==============================] - 5s 136ms/step
+   7086: Train Score: 4.72 RMSE
+   7087: Test Score: 5.31 RMSE
+   7088  Model: "model_181"
+
+   7144  20/20 [==============================] - 6s 162ms/step
+   7145: Train Score: 4.61 RMSE
+   7146: Test Score: 5.35 RMSE
+   7147  Starting for 33 steps in the future
+
+   7242  20/20 [==============================] - 6s 129ms/step
+   7243: Train Score: 4.57 RMSE
+   7244: Test Score: 5.25 RMSE
+   7245  Model: "model_183"
+
+   7365  20/20 [==============================] - 6s 184ms/step
+   7366: Train Score: 4.57 RMSE
+   7367: Test Score: 5.48 RMSE
+   7368  Model: "model_184"
+
+   7488  20/20 [==============================] - 6s 148ms/step
+   7489: Train Score: 4.37 RMSE
+   7490: Test Score: 5.32 RMSE
+   7491  Model: "model_185"
+
+   7573  20/20 [==============================] - 7s 176ms/step
+   7574: Train Score: 4.42 RMSE
+   7575: Test Score: 5.29 RMSE
+   7576  Model: "model_186"
+
+   7674  20/20 [==============================] - 6s 178ms/step
+   7675: Train Score: 4.75 RMSE
+   7676: Test Score: 5.62 RMSE
+   7677  Model: "model_187"
+
+   7753  20/20 [==============================] - 8s 249ms/step
+   7754: Train Score: 4.67 RMSE
+   7755: Test Score: 5.53 RMSE
+   7756  Model: "model_188"
+
+   7852  20/20 [==============================] - 5s 116ms/step
+   7853: Train Score: 4.53 RMSE
+   7854: Test Score: 5.36 RMSE
+   7855  Model: "model_189"
+
+   7943  20/20 [==============================] - 6s 151ms/step
+   7944: Train Score: 4.67 RMSE
+   7945: Test Score: 5.47 RMSE
+   7946  Model: "model_190"
+
+   8058  20/20 [==============================] - 6s 144ms/step
+   8059: Train Score: 4.55 RMSE
+   8060: Test Score: 5.34 RMSE
+   8061  Model: "model_191"
+
+   8127  20/20 [==============================] - 8s 248ms/step
+   8128: Train Score: 4.62 RMSE
+   8129: Test Score: 5.39 RMSE
+   8130  Starting for 37 steps in the future
+
+   8209  20/20 [==============================] - 5s 136ms/step
+   8210: Train Score: 4.91 RMSE
+   8211: Test Score: 5.51 RMSE
+   8212  Model: "model_193"
+
+   8330  20/20 [==============================] - 6s 158ms/step
+   8331: Train Score: 4.59 RMSE
+   8332: Test Score: 5.57 RMSE
+   8333  Model: "model_194"
+
+   8433  20/20 [==============================] - 6s 164ms/step
+   8434: Train Score: 4.95 RMSE
+   8435: Test Score: 5.68 RMSE
+   8436  Model: "model_195"
+
+   8574  20/20 [==============================] - 7s 174ms/step
+   8575: Train Score: 4.53 RMSE
+   8576: Test Score: 5.53 RMSE
+   8577  Model: "model_196"
+
+   8643  20/20 [==============================] - 6s 169ms/step
+   8644: Train Score: 5.09 RMSE
+   8645: Test Score: 5.77 RMSE
+   8646  Model: "model_197"
+
+   8778  20/20 [==============================] - 6s 175ms/step
+   8779: Train Score: 4.43 RMSE
+   8780: Test Score: 5.39 RMSE
+   8781  Model: "model_198"
+
+   8893  20/20 [==============================] - 9s 249ms/step
+   8894: Train Score: 4.49 RMSE
+   8895: Test Score: 5.45 RMSE
+   8896  Model: "model_199"
+
+   8988  20/20 [==============================] - 9s 299ms/step
+   8989: Train Score: 4.88 RMSE
+   8990: Test Score: 5.56 RMSE
+   8991  Model: "model_200"
+
+   9075  20/20 [==============================] - 7s 166ms/step
+   9076: Train Score: 4.95 RMSE
+   9077: Test Score: 5.59 RMSE
+   9078  Model: "model_201"
+
+   9148  20/20 [==============================] - 8s 216ms/step
+   9149: Train Score: 5.72 RMSE
+   9150: Test Score: 6.13 RMSE
+   9151  Starting for 41 steps in the future
+
+   9218  19/19 [==============================] - 6s 147ms/step
+   9219: Train Score: 4.84 RMSE
+   9220: Test Score: 5.33 RMSE
+   9221  Model: "model_203"
+
+   9311  19/19 [==============================] - 5s 144ms/step
+   9312: Train Score: 4.71 RMSE
+   9313: Test Score: 5.36 RMSE
+   9314  Model: "model_204"
+
+   9416  19/19 [==============================] - 6s 175ms/step
+   9417: Train Score: 4.69 RMSE
+   9418: Test Score: 5.24 RMSE
+   9419  Model: "model_205"
+
+   9513  19/19 [==============================] - 9s 324ms/step
+   9514: Train Score: 4.81 RMSE
+   9515: Test Score: 5.29 RMSE
+   9516  Model: "model_206"
+
+   9634  19/19 [==============================] - 9s 275ms/step
+   9635: Train Score: 4.62 RMSE
+   9636: Test Score: 5.07 RMSE
+   9637  Model: "model_207"
+
+   9765  19/19 [==============================] - 8s 246ms/step
+   9766: Train Score: 4.67 RMSE
+   9767: Test Score: 5.18 RMSE
+   9768  Model: "model_208"
+
+   9826  19/19 [==============================] - 6s 160ms/step
+   9827: Train Score: 4.78 RMSE
+   9828: Test Score: 5.29 RMSE
+   9829  Model: "model_209"
+
+   9917  19/19 [==============================] - 7s 180ms/step
+   9918: Train Score: 5.04 RMSE
+   9919: Test Score: 5.55 RMSE
+   9920  Model: "model_210"
+
+  10020  19/19 [==============================] - 7s 225ms/step
+  10021: Train Score: 4.69 RMSE
+  10022: Test Score: 5.28 RMSE
+  10023  Model: "model_211"
+
+  10105  19/19 [==============================] - 7s 205ms/step
+  10106: Train Score: 4.77 RMSE
+  10107: Test Score: 5.25 RMSE
+  10108  Starting for 45 steps in the future
+
+  10239  19/19 [==============================] - 7s 193ms/step
+  10240: Train Score: 4.84 RMSE
+  10241: Test Score: 4.82 RMSE
+  10242  Model: "model_213"
+
+  10384  19/19 [==============================] - 8s 238ms/step
+  10385: Train Score: 4.50 RMSE
+  10386: Test Score: 4.50 RMSE
+  10387  Model: "model_214"
+
+  10467  19/19 [==============================] - 7s 226ms/step
+  10468: Train Score: 4.74 RMSE
+  10469: Test Score: 4.66 RMSE
+  10470  Model: "model_215"
+
+  10524  19/19 [==============================] - 7s 188ms/step
+  10525: Train Score: 5.72 RMSE
+  10526: Test Score: 5.60 RMSE
+  10527  Model: "model_216"
+
+  10645  19/19 [==============================] - 6s 145ms/step
+  10646: Train Score: 4.85 RMSE
+  10647: Test Score: 5.03 RMSE
+  10648  Model: "model_217"
+
+  10742  19/19 [==============================] - 6s 171ms/step
+  10743: Train Score: 5.19 RMSE
+  10744: Test Score: 5.10 RMSE
+  10745  Model: "model_218"
+
+  10847  19/19 [==============================] - 8s 266ms/step
+  10848: Train Score: 4.60 RMSE
+  10849: Test Score: 4.63 RMSE
+  10850  Model: "model_219"
+
+  10922  19/19 [==============================] - 7s 197ms/step
+  10923: Train Score: 4.80 RMSE
+  10924: Test Score: 4.62 RMSE
+  10925  Model: "model_220"
+
+  11011  19/19 [==============================] - 8s 230ms/step
+  11012: Train Score: 5.12 RMSE
+  11013: Test Score: 5.04 RMSE
+  11014  Model: "model_221"
+
+  11084  19/19 [==============================] - 9s 279ms/step
+  11085: Train Score: 5.03 RMSE
+  11086: Test Score: 5.03 RMSE
+  11087  Starting for 49 steps in the future
+
+  11220  19/19 [==============================] - 8s 253ms/step
+  11221: Train Score: 4.55 RMSE
+  11222: Test Score: 4.74 RMSE
+  11223  Model: "model_223"
+
+  11283  19/19 [==============================] - 9s 248ms/step
+  11284: Train Score: 5.06 RMSE
+  11285: Test Score: 5.09 RMSE
+  11286  Model: "model_224"
+
+  11384  19/19 [==============================] - 9s 314ms/step
+  11385: Train Score: 4.76 RMSE
+  11386: Test Score: 5.01 RMSE
+  11387  Model: "model_225"
+
+  11463  19/19 [==============================] - 9s 296ms/step
+  11464: Train Score: 4.85 RMSE
+  11465: Test Score: 5.03 RMSE
+  11466  Model: "model_226"
+
+  11636  19/19 [==============================] - 8s 239ms/step
+  11637: Train Score: 4.30 RMSE
+  11638: Test Score: 4.80 RMSE
+  11639  Model: "model_227"
+
+  11707  19/19 [==============================] - 8s 203ms/step
+  11708: Train Score: 4.85 RMSE
+  11709: Test Score: 4.88 RMSE
+  11710  Model: "model_228"
+
+  11804  19/19 [==============================] - 10s 317ms/step
+  11805: Train Score: 4.56 RMSE
+  11806: Test Score: 4.86 RMSE
+  11807  Model: "model_229"
+
+  11869  19/19 [==============================] - 8s 225ms/step
+  11870: Train Score: 5.21 RMSE
+  11871: Test Score: 5.28 RMSE
+  11872  Model: "model_230"
+
+  11962  19/19 [==============================] - 9s 261ms/step
+  11963: Train Score: 4.78 RMSE
+  11964: Test Score: 5.05 RMSE
+  11965  Model: "model_231"
+
+  12035  19/19 [==============================] - 8s 204ms/step
+  12036: Train Score: 5.07 RMSE
+  12037: Test Score: 5.22 RMSE
+  12038  Starting for 53 steps in the future
+
+  12111  19/19 [==============================] - 9s 275ms/step
+  12112: Train Score: 5.14 RMSE
+  12113: Test Score: 5.61 RMSE
+  12114  Model: "model_233"
+
+  12192  19/19 [==============================] - 10s 337ms/step
+  12193: Train Score: 4.59 RMSE
+  12194: Test Score: 5.02 RMSE
+  12195  Model: "model_234"
+
+  12277  19/19 [==============================] - 11s 384ms/step
+  12278: Train Score: 4.85 RMSE
+  12279: Test Score: 5.72 RMSE
+  12280  Model: "model_235"
+
+  12390  19/19 [==============================] - 10s 322ms/step
+  12391: Train Score: 4.79 RMSE
+  12392: Test Score: 5.08 RMSE
+  12393  Model: "model_236"
+
+  12461  19/19 [==============================] - 10s 351ms/step
+  12462: Train Score: 4.72 RMSE
+  12463: Test Score: 5.07 RMSE
+  12464  Model: "model_237"
+
+  12544  19/19 [==============================] - 10s 296ms/step
+  12545: Train Score: 4.69 RMSE
+  12546: Test Score: 5.18 RMSE
+  12547  Model: "model_238"
+
+  12619  19/19 [==============================] - 12s 433ms/step
+  12620: Train Score: 4.81 RMSE
+  12621: Test Score: 5.05 RMSE
+  12622  Model: "model_239"
+
+  12712  19/19 [==============================] - 10s 329ms/step
+  12713: Train Score: 4.61 RMSE
+  12714: Test Score: 5.07 RMSE
+  12715  Model: "model_240"
+
+  12795  19/19 [==============================] - 10s 324ms/step
+  12796: Train Score: 4.85 RMSE
+  12797: Test Score: 5.22 RMSE
+  12798  Model: "model_241"
+
+  12898  19/19 [==============================] - 10s 333ms/step
+  12899: Train Score: 4.97 RMSE
+  12900: Test Score: 5.43 RMSE
+  12901  Starting for 57 steps in the future
+
+  12970  19/19 [==============================] - 7s 185ms/step
+  12971: Train Score: 4.93 RMSE
+  12972: Test Score: 5.29 RMSE
+  12973  Model: "model_243"
+
+  13067  19/19 [==============================] - 8s 249ms/step
+  13068: Train Score: 4.63 RMSE
+  13069: Test Score: 5.23 RMSE
+  13070  Model: "model_244"
+
+  13154  19/19 [==============================] - 7s 197ms/step
+  13155: Train Score: 5.32 RMSE
+  13156: Test Score: 5.79 RMSE
+  13157  Model: "model_245"
+
+  13269  19/19 [==============================] - 8s 291ms/step
+  13270: Train Score: 4.80 RMSE
+  13271: Test Score: 5.42 RMSE
+  13272  Model: "model_246"
+
+  13350  19/19 [==============================] - 8s 220ms/step
+  13351: Train Score: 5.11 RMSE
+  13352: Test Score: 5.35 RMSE
+  13353  Model: "model_247"
+
+  13435  19/19 [==============================] - 11s 403ms/step
+  13436: Train Score: 4.90 RMSE
+  13437: Test Score: 5.27 RMSE
+  13438  Model: "model_248"
+
+  13550  19/19 [==============================] - 11s 358ms/step
+  13551: Train Score: 4.38 RMSE
+  13552: Test Score: 4.94 RMSE
+  13553  Model: "model_249"
+
+  13673  19/19 [==============================] - 9s 276ms/step
+  13674: Train Score: 4.21 RMSE
+  13675: Test Score: 4.92 RMSE
+  13676  Model: "model_250"
+
+  13748  19/19 [==============================] - 10s 312ms/step
+  13749: Train Score: 5.12 RMSE
+  13750: Test Score: 5.35 RMSE
+  13751  Model: "model_251"
+
+  13819  19/19 [==============================] - 10s 312ms/step
+  13820: Train Score: 4.99 RMSE
+  13821: Test Score: 5.28 RMSE
+  13822  Starting for 61 steps in the future
+
+  13933  19/19 [==============================] - 10s 305ms/step
+  13934: Train Score: 4.97 RMSE
+  13935: Test Score: 5.05 RMSE
+  13936  Model: "model_253"
+
+  14022  19/19 [==============================] - 9s 304ms/step
+  14023: Train Score: 4.88 RMSE
+  14024: Test Score: 4.74 RMSE
+  14025  Model: "model_254"
+
+  14119  19/19 [==============================] - 10s 356ms/step
+  14120: Train Score: 5.45 RMSE
+  14121: Test Score: 5.41 RMSE
+  14122  Model: "model_255"
+
+  14204  19/19 [==============================] - 9s 256ms/step
+  14205: Train Score: 5.14 RMSE
+  14206: Test Score: 5.06 RMSE
+  14207  Model: "model_256"
+
+  14267  19/19 [==============================] - 8s 226ms/step
+  14268: Train Score: 5.27 RMSE
+  14269: Test Score: 5.12 RMSE
+  14270  Model: "model_257"
+
+  14330  19/19 [==============================] - 9s 260ms/step
+  14331: Train Score: 5.40 RMSE
+  14332: Test Score: 5.25 RMSE
+  14333  Model: "model_258"
+
+  14437  19/19 [==============================] - 9s 237ms/step
+  14438: Train Score: 5.08 RMSE
+  14439: Test Score: 4.99 RMSE
+  14440  Model: "model_259"
+
+  14516  19/19 [==============================] - 12s 443ms/step
+  14517: Train Score: 5.02 RMSE
+  14518: Test Score: 4.84 RMSE
+  14519  Model: "model_260"
+
+  14617  19/19 [==============================] - 10s 301ms/step
+  14618: Train Score: 4.91 RMSE
+  14619: Test Score: 4.91 RMSE
+  14620  Model: "model_261"
+
+  14708  19/19 [==============================] - 10s 325ms/step
+  14709: Train Score: 5.46 RMSE
+  14710: Test Score: 5.56 RMSE
+  14711  Starting for 65 steps in the future
+
+  14798  19/19 [==============================] - 8s 225ms/step
+  14799: Train Score: 4.77 RMSE
+  14800: Test Score: 5.54 RMSE
+  14801  Model: "model_263"
+
+  14863  19/19 [==============================] - 11s 342ms/step
+  14864: Train Score: 4.99 RMSE
+  14865: Test Score: 5.91 RMSE
+  14866  Model: "model_264"
+
+  14940  19/19 [==============================] - 10s 328ms/step
+  14941: Train Score: 5.86 RMSE
+  14942: Test Score: 6.85 RMSE
+  14943  Model: "model_265"
+
+  15015  19/19 [==============================] - 8s 263ms/step
+  15016: Train Score: 4.87 RMSE
+  15017: Test Score: 5.58 RMSE
+  15018  Model: "model_266"
+
+  15098  19/19 [==============================] - 7s 217ms/step
+  15099: Train Score: 5.37 RMSE
+  15100: Test Score: 6.37 RMSE
+  15101  Model: "model_267"
+
+  15221  19/19 [==============================] - 9s 280ms/step
+  15222: Train Score: 4.97 RMSE
+  15223: Test Score: 5.51 RMSE
+  15224  Model: "model_268"
+
+  15330  19/19 [==============================] - 8s 222ms/step
+  15331: Train Score: 4.53 RMSE
+  15332: Test Score: 5.35 RMSE
+  15333  Model: "model_269"
+
+  15439  19/19 [==============================] - 11s 408ms/step
+  15440: Train Score: 4.83 RMSE
+  15441: Test Score: 5.59 RMSE
+  15442  Model: "model_270"
+
+  15560  19/19 [==============================] - 12s 384ms/step
+  15561: Train Score: 5.19 RMSE
+  15562: Test Score: 5.78 RMSE
+  15563  Model: "model_271"
+
+  15659  19/19 [==============================] - 10s 288ms/step
+  15660: Train Score: 4.43 RMSE
+  15661: Test Score: 5.23 RMSE
+  15662  Starting for 69 steps in the future
+
+  15755  19/19 [==============================] - 10s 290ms/step
+  15756: Train Score: 5.02 RMSE
+  15757: Test Score: 5.31 RMSE
+  15758  Model: "model_273"
+
+  15818  19/19 [==============================] - 12s 413ms/step
+  15819: Train Score: 5.18 RMSE
+  15820: Test Score: 5.29 RMSE
+  15821  Model: "model_274"
+
+  15891  19/19 [==============================] - 10s 318ms/step
+  15892: Train Score: 5.40 RMSE
+  15893: Test Score: 5.52 RMSE
+  15894  Model: "model_275"
+
+  15976  19/19 [==============================] - 9s 270ms/step
+  15977: Train Score: 5.22 RMSE
+  15978: Test Score: 5.24 RMSE
+  15979  Model: "model_276"
+
+  16089  19/19 [==============================] - 16s 502ms/step
+  16090: Train Score: 5.34 RMSE
+  16091: Test Score: 5.44 RMSE
+  16092  Model: "model_277"
+
+  16190  19/19 [==============================] - 14s 420ms/step
+  16191: Train Score: 4.52 RMSE
+  16192: Test Score: 4.73 RMSE
+  16193  Model: "model_278"
+
+  16275  19/19 [==============================] - 13s 355ms/step
+  16276: Train Score: 4.72 RMSE
+  16277: Test Score: 4.87 RMSE
+  16278  Model: "model_279"
+
+  16344  19/19 [==============================] - 8s 245ms/step
+  16345: Train Score: 5.01 RMSE
+  16346: Test Score: 5.20 RMSE
+  16347  Model: "model_280"
+
+  16455  19/19 [==============================] - 11s 396ms/step
+  16456: Train Score: 4.51 RMSE
+  16457: Test Score: 4.82 RMSE
+  16458  Model: "model_281"
+
+  16538  19/19 [==============================] - 11s 320ms/step
+  16539: Train Score: 5.18 RMSE
+  16540: Test Score: 5.13 RMSE
+  16541  Starting for 73 steps in the future
+
+  16610  18/18 [==============================] - 11s 381ms/step
+  16611: Train Score: 5.03 RMSE
+  16612: Test Score: 5.90 RMSE
+  16613  Model: "model_283"
+
+  16717  18/18 [==============================] - 12s 435ms/step
+  16718: Train Score: 4.30 RMSE
+  16719: Test Score: 4.94 RMSE
+  16720  Model: "model_284"
+
+  16806  18/18 [==============================] - 13s 424ms/step
+  16807: Train Score: 4.70 RMSE
+  16808: Test Score: 5.06 RMSE
+  16809  Model: "model_285"
+
+  16895  18/18 [==============================] - 15s 505ms/step
+  16896: Train Score: 4.57 RMSE
+  16897: Test Score: 4.91 RMSE
+  16898  Model: "model_286"
+
+  16960  18/18 [==============================] - 12s 410ms/step
+  16961: Train Score: 5.94 RMSE
+  16962: Test Score: 6.30 RMSE
+  16963  Model: "model_287"
+
+  17057  18/18 [==============================] - 11s 361ms/step
+  17058: Train Score: 4.54 RMSE
+  17059: Test Score: 5.51 RMSE
+  17060  Model: "model_288"
+
+  17176  18/18 [==============================] - 13s 427ms/step
+  17177: Train Score: 4.22 RMSE
+  17178: Test Score: 4.82 RMSE
+  17179  Model: "model_289"
