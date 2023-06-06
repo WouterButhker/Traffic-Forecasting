@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 
-file_path = os.path.join(os.path.dirname(__file__), "results")
+file_path = os.path.join(os.path.dirname(__file__), "results/4_steps_all_intersections")
 
 dfs = []
 
@@ -20,8 +20,11 @@ df = pd.concat(dfs, axis=1)
 
 means = df.mean(axis=0)
 
-df_train = df[[col for col in df.columns if "train" in col]]
-df_test = df[[col for col in df.columns if "test" in col]]
+df_train = df[[col for col in df.columns if "train_score" in col]]
+df_test = df[[col for col in df.columns if "test_score" in col]]
+
+df_relative_train = df[[col for col in df.columns if "train_relative" in col]]
+df_relative_test = df[[col for col in df.columns if "test_relative" in col]]
 
 # plt.plot(df_train, label='train')
 # plt.plot(df_test, label='test')
@@ -50,6 +53,11 @@ test_times = [(int(col.split("_")[-1]) / 4) for col in df_test.columns]
 test_scores = df_test.mean().values
 plt.plot(test_times, test_scores, label="Test", marker="o")
 
+train_relative_scores = df_relative_train.mean().values
+plt.plot(train_times, train_relative_scores, label="Train relative", marker="o")
+
+test_relative_scores = df_relative_test.mean().values
+plt.plot(test_times, test_relative_scores, label="Test relative", marker="o")
 # add labels and title
 plt.xlabel("Future time (in hours)")
 plt.ylabel("RMSE score")
